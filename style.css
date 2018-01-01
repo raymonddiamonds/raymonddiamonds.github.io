@@ -1,0 +1,109 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+ @import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+ html, body{
+ 	margin: 0;
+ 	padding: 0;
+ 	height: 100%;
+ 	width: 100%;
+ }
+ .intro {
+ 	height: 100%;
+ 	width: 100%;
+ 	margin: auto;
+ 	background: url("background2.jpeg")  no-repeat 50% 50%;
+ 	display: table;
+ 	top: 0;
+ 	background-size: cover; 
+ }
+.inner{
+ 	display: table-cell;
+ 	vertical-align: middle;
+ 	width: 100%;
+ 	max-width: none;
+
+ }
+ .content {
+ 	max-width: 500px;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+ .content h1 {
+ 	font-family: 'Raleway', sans-serif;
+ 	color: #F9F3F4;
+ 	text-shadow: 0px 0px 300px #000;
+ 	font-size: 500%;
+ }
+.btn {
+	border-radius: 9px;
+	font-family: "Oswald", sans-serif;
+	color: #036A81;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #036A81 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover {
+	color: #fff;
+	border: solid #fff 3px;
+}
+
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0rem;
+  background-color:
+}
+.fa {
+
+	text-align: center;
+	text-decoration: none;
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+	color: #F9F3F4;
+	padding: 20px 13px;
+	text-transform: uppercase;
+	border-radius: 50%;
+	text-shadow: 0px 0px 300px #000;
+} 
+
+.fa-github:hover {
+    opacity: 0.8;
+    color: #6D5394;
+}
+.fa-linkedin:hover {
+	opacity: 0.8;
+	color: #0076B5;
+}
+.fa-instagram:hover {
+	opacity: 0.8;
+	color: #E2306B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
