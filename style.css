@@ -96,6 +96,16 @@
 	color: #E2306B;
 }
 
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 250%;
+	}
+	.temp {
+		font-size: 110%;
+		
+		
+	}
+}
 
 
 
